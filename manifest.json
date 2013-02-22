@@ -1,0 +1,26 @@
+{
+    "name": "swipetest",
+    "description": "Please provide a description for this template.",
+    "version": "1.0",
+    "devices": [
+        "iPhone",
+        "Android"
+    ],
+    "platformConfig": {
+        "android": {
+            "nativeNavigation": true
+        },
+        "iOS": {
+            "nativeNavigation": true
+        }
+    },
+    "views": [
+        {
+            "navigationTitle": "SwipeTest",
+            "navigationIcon": "images/icons/demoview1.png",
+            "uri": "./html/swipetest.html",
+            "locales": "./txt/locales/en.txt",
+            "markup": "./txt/markup/swipetest.txt"
+        }
+    ]
+}
